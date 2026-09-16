@@ -1,0 +1,396 @@
+{
+  "schema": "myvote.mac_source_update",
+  "schema_version": 1,
+  "release": "semantic-translation-2026-09-16",
+  "contains_credentials": false,
+  "speaker_profile": "profiles/speaker-preview-profile.json",
+  "contains_model_weights": false,
+  "reuses_existing_environment": true,
+  "files": [
+    {
+      "path": "README_UPDATE.md",
+      "bytes": 10051,
+      "sha256": "c4cb2e7f600200b0fd999f633f3550b62962b4370059422d06771eba8a9ba6bf"
+    },
+    {
+      "path": "docs/asr-stage-timing.md",
+      "bytes": 7133,
+      "sha256": "1383844a1fbf219d8c4691b5970346a76f77a9e5bcf5dbba1f4d364523af0a21"
+    },
+    {
+      "path": "docs/committed-word-trace.md",
+      "bytes": 4994,
+      "sha256": "e5e8b5721fcb73cd75529c51b4b2044b8a0c523fb76602c7b35e4c4bce01c9b2"
+    },
+    {
+      "path": "docs/context-refinement-update.md",
+      "bytes": 6215,
+      "sha256": "1b2aebf7e0469aa45cc2aa18fc5beb4a6318a5c7ed999917dc4cecdfb559c49c"
+    },
+    {
+      "path": "docs/frequency-separation-research-2026-09-15.md",
+      "bytes": 12732,
+      "sha256": "66209e3b971bdbe87267df8c6ffc617e86c7c05858956ff8aee9aec08f5c9cf7"
+    },
+    {
+      "path": "docs/frequency-separation.md",
+      "bytes": 9190,
+      "sha256": "26e8625f7ef9db6f2754f5aff97abb687f1603544f54cd42ddfa4ade508d8865"
+    },
+    {
+      "path": "docs/frequency-speaker-preview.md",
+      "bytes": 7001,
+      "sha256": "fef2517e398d6ade268af844d5c8432cd7a5632da3f2b39f7913a28d2f2738c7"
+    },
+    {
+      "path": "docs/history-latency-update.md",
+      "bytes": 6006,
+      "sha256": "dc40419898ec295b330f6da4d8c88289eb993cfe637c59576b9ed4caf01d5f3f"
+    },
+    {
+      "path": "docs/live-overlap.md",
+      "bytes": 7082,
+      "sha256": "77e87df48b34802294c6630c003ac8878eb819b721f55231407c00ffc4d9c1c7"
+    },
+    {
+      "path": "docs/saved-session-history.md",
+      "bytes": 3725,
+      "sha256": "ff5d943dff92c670fc455d8b6c5e0d759419c8f173db82244e834b87104f83a4"
+    },
+    {
+      "path": "docs/semantic-translation-update.md",
+      "bytes": 10051,
+      "sha256": "c4cb2e7f600200b0fd999f633f3550b62962b4370059422d06771eba8a9ba6bf"
+    },
+    {
+      "path": "docs/sepformer.md",
+      "bytes": 7405,
+      "sha256": "c9404cdac7523ad1af45de973ceddea3da3c3d1877af64510e98da240ebd7012"
+    },
+    {
+      "path": "docs/speaker-activity-research-2026-09-15.md",
+      "bytes": 5941,
+      "sha256": "7a9765dd13d0a1b2576c8ed91179676ac2572b32e25899c7c1fc1c0a19ea753d"
+    },
+    {
+      "path": "docs/speaker-evidence-update.md",
+      "bytes": 4182,
+      "sha256": "aaed94fe62e36106c052898d96cd1e0854ec8912ddead7509430ffd386479ea0"
+    },
+    {
+      "path": "docs/speaker-pooling-research-2026-09-15.md",
+      "bytes": 8260,
+      "sha256": "8a0b1fdaaa849188d35c13e21f4435e886136e5fac3419a6a55a62e6495bdfd0"
+    },
+    {
+      "path": "docs/translation-orchestrator-architecture.md",
+      "bytes": 9401,
+      "sha256": "a53ef575cc87bf4b7db78bcd3a090a742661676a5a52ee85212281cbed83278a"
+    },
+    {
+      "path": "profiles/speaker-preview-profile.json",
+      "bytes": 3344,
+      "sha256": "30ffbd0216e20c146c633bb77865225b47bf6f6ca01253f71f159e9e21f0e49a"
+    },
+    {
+      "path": "scripts/mac_demo_setup.py",
+      "bytes": 25028,
+      "sha256": "2d9f2f41a72ce399adddf05a0b0a74b74d40bac350624ff054e08f6b7c666f09"
+    },
+    {
+      "path": "scripts/mac_update_gateway.py",
+      "bytes": 1087,
+      "sha256": "158bd1a351973e6e8931818ffbecc4d09a96c8d033aa74e3260b8d17246385f6"
+    },
+    {
+      "path": "scripts/mac_update_separate.py",
+      "bytes": 859,
+      "sha256": "4fdfef0287a16be47adc282b319d220b62ae06df8ccaa5c364a328da9cbde347"
+    },
+    {
+      "path": "scripts/mac_update_sepformer.py",
+      "bytes": 855,
+      "sha256": "7c672740d5dbfd803125d3f46f34f473add43f50fc5763778e265c54ee028f64"
+    },
+    {
+      "path": "scripts/mac_update_start.py",
+      "bytes": 7678,
+      "sha256": "48da5b124c2264cf3c963f9a565b12e8b08748193f3a87ad07f19b182820b476"
+    },
+    {
+      "path": "separate-audio.command",
+      "bytes": 494,
+      "sha256": "d94d5e810e7433689762f7cc25dcb678f390241450d299d3110a564ab3a27e4e"
+    },
+    {
+      "path": "separate-sepformer.command",
+      "bytes": 504,
+      "sha256": "759a7f39d45505ed1ee19704a2f5679ac77ffc368ea0e5961504015275cd176a"
+    },
+    {
+      "path": "src/myvote_engine/__init__.py",
+      "bytes": 132,
+      "sha256": "a5faa87145efa8433fe648f10a7cd380d3f8d9d6124719932d100e80cd9f0c8d"
+    },
+    {
+      "path": "src/myvote_engine/asr.py",
+      "bytes": 14481,
+      "sha256": "c7cf18a2ce450b294b2f3873ad36fa56b4d654942cab55c2c5a650ab641f3ec6"
+    },
+    {
+      "path": "src/myvote_engine/asr_timing.py",
+      "bytes": 3644,
+      "sha256": "4f5412856c16ff49ef6394a35f4d2f7c1262832c2c6ee2eae217c5f455039135"
+    },
+    {
+      "path": "src/myvote_engine/audio.py",
+      "bytes": 16539,
+      "sha256": "e7fe5031c22cb3f491a49ff780768db793e957403f73a4167594e88a99ee6bf5"
+    },
+    {
+      "path": "src/myvote_engine/benchmark.py",
+      "bytes": 8136,
+      "sha256": "5390e136064f424d0fcfd50c640bed2d98ea9522ec72327e359a494e678f1d49"
+    },
+    {
+      "path": "src/myvote_engine/caption_archive.py",
+      "bytes": 12325,
+      "sha256": "055a06e3207def41bf142a3cb12eb00d47646110bc6329e2de2a0b766a9c140e"
+    },
+    {
+      "path": "src/myvote_engine/captions.py",
+      "bytes": 40177,
+      "sha256": "a00cb91c7b65241185afe2594491a175a8d4a0930126d3c341a132b20e85ddbf"
+    },
+    {
+      "path": "src/myvote_engine/capture.py",
+      "bytes": 14403,
+      "sha256": "3bf45cf2d3fa9553695067b1ae09ac795f5da6d39070e8fd36e006293751fea9"
+    },
+    {
+      "path": "src/myvote_engine/capture_cli.py",
+      "bytes": 14409,
+      "sha256": "64aff42f9baca9459239091dd55fd5facd4d8c32db4d07c04163142cb1992c4c"
+    },
+    {
+      "path": "src/myvote_engine/client_latency.py",
+      "bytes": 17931,
+      "sha256": "086e298dea10d73309c5b8fac8ee529e3faaa5f65a7b17f8d40e550efa654a42"
+    },
+    {
+      "path": "src/myvote_engine/context_refinement.py",
+      "bytes": 19898,
+      "sha256": "f456fc5db48fe2a340260dc4f94f405b2a604f2688701d3765f4aa790eea0319"
+    },
+    {
+      "path": "src/myvote_engine/desktop_bridge.py",
+      "bytes": 35144,
+      "sha256": "ae38fe64e060ae7c9bb19c5e6394879ad25cb56821e5fe92c028bd2859cec6a4"
+    },
+    {
+      "path": "src/myvote_engine/dsp.py",
+      "bytes": 16709,
+      "sha256": "4f56b7823b6d004d2314740b5a3c170cc1e4524928f0e444e854ef543c33f9d8"
+    },
+    {
+      "path": "src/myvote_engine/embedding.py",
+      "bytes": 12723,
+      "sha256": "e188a8609f932e3a1ae1fef311f53d75e3d210d0cc8c1a1d844637238a4052b4"
+    },
+    {
+      "path": "src/myvote_engine/frequency_separation.py",
+      "bytes": 11097,
+      "sha256": "f94778c3b3e068339da76bf724816dc8c27b08ea0ac989a375dd041fea8e1f70"
+    },
+    {
+      "path": "src/myvote_engine/gateway_client.py",
+      "bytes": 10121,
+      "sha256": "6d09bc52122d2aa366bd4030e381a9c51212f0b30e39571444114d68929d4baa"
+    },
+    {
+      "path": "src/myvote_engine/gateway_server.py",
+      "bytes": 47202,
+      "sha256": "c8b990438d961b2475e96a2fb19532730687e96e35fd8476781789f0ceb6d6a8"
+    },
+    {
+      "path": "src/myvote_engine/inference_scheduler.py",
+      "bytes": 6345,
+      "sha256": "228add3c08444a31ec6510c1dfe3d9514a7678c24aeda8b9378eeb106164f83a"
+    },
+    {
+      "path": "src/myvote_engine/ingress_timing.py",
+      "bytes": 3699,
+      "sha256": "6b544630af6c8f8941a02c9032a58ddaba375c66f0a32e877145e2e534aadc5a"
+    },
+    {
+      "path": "src/myvote_engine/licenses/speechbrain-LICENSE.txt",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "src/myvote_engine/licenses/speechbrain-NOTICE.txt",
+      "bytes": 952,
+      "sha256": "eeee810f7cd80a434b4bce690c400b7cea5fba88f237af73471ed38b1200317c"
+    },
+    {
+      "path": "src/myvote_engine/live.py",
+      "bytes": 23755,
+      "sha256": "411da607e61bb9eb04e85f865d6f814cd41733d2603f5177f1475682f3ab22e8"
+    },
+    {
+      "path": "src/myvote_engine/mac_preflight.py",
+      "bytes": 21954,
+      "sha256": "d00d38db637db77ac6ea98e57b044b798100bfd7488550a1c891ec829f33568f"
+    },
+    {
+      "path": "src/myvote_engine/orchestrated_translation.py",
+      "bytes": 21656,
+      "sha256": "f81cff43cb7e5517afaa73aa4cfdcfb9708c538d58c9ca344ec92f4ad966f875"
+    },
+    {
+      "path": "src/myvote_engine/overlap_pipeline.py",
+      "bytes": 17315,
+      "sha256": "99d37c7939c2a3581c9749052e6f521f9689f019a3c5f4d7ffa1dde86a98930e"
+    },
+    {
+      "path": "src/myvote_engine/overlap_separation.py",
+      "bytes": 6376,
+      "sha256": "1405534cd31828299c0edf40e7dabdeed3e8471abec385bc8d10701df1dc32eb"
+    },
+    {
+      "path": "src/myvote_engine/overlap_stream.py",
+      "bytes": 23577,
+      "sha256": "36de9be55bea10483981020ddf8b691304608165f4f23df972c59e737c7d496b"
+    },
+    {
+      "path": "src/myvote_engine/pipeline.py",
+      "bytes": 46243,
+      "sha256": "b0a1ea49184900439b4eaba90c7976fb28cd4a1db4e82c54ab084a9d3251cf39"
+    },
+    {
+      "path": "src/myvote_engine/priority_translation.py",
+      "bytes": 3253,
+      "sha256": "865f93a67967eb6c86bfad1832db55e0ca3bc03b7357337222b701030e44a2fa"
+    },
+    {
+      "path": "src/myvote_engine/remote_captions.py",
+      "bytes": 31127,
+      "sha256": "784bc979373c5e12b2d0143826cf8ce990598e4c693fb250e43c400ba0b80460"
+    },
+    {
+      "path": "src/myvote_engine/replay.py",
+      "bytes": 11473,
+      "sha256": "5101885e2cb41d989996078f988ddeff8aebf6745813e556d110206085af68af"
+    },
+    {
+      "path": "src/myvote_engine/rpc/__init__.py",
+      "bytes": 82,
+      "sha256": "1a374192bac655df28a20dec7027324294b5dc2d08f0d4c2f2bcccb110fb9163"
+    },
+    {
+      "path": "src/myvote_engine/rpc/session_pb2.py",
+      "bytes": 3500,
+      "sha256": "c99fd5ba6fdb3f4bc9703b259e6608c796e238028a07373e2bd83f7c9bd2a107"
+    },
+    {
+      "path": "src/myvote_engine/rpc/session_pb2_grpc.py",
+      "bytes": 3764,
+      "sha256": "26138cb4ccb6c739e1b8b325b7e8506551b8cbc5d4fc6291ba17ee0ddfea51dc"
+    },
+    {
+      "path": "src/myvote_engine/segmentation.py",
+      "bytes": 17652,
+      "sha256": "20b4aedeebd97e6a3b48424823df286a3130e43ef41cb7a5bd500f721351ee9c"
+    },
+    {
+      "path": "src/myvote_engine/semantic_pipeline.py",
+      "bytes": 12256,
+      "sha256": "02e4b1062bdd4871da560bc507c20b2f2aac3da25021b8034d56888bef7e4e73"
+    },
+    {
+      "path": "src/myvote_engine/semantic_routing.py",
+      "bytes": 8660,
+      "sha256": "eb2845950273a9d3127699bbce8e855979717ccdabb161341e6b901237814682"
+    },
+    {
+      "path": "src/myvote_engine/semantic_translation.py",
+      "bytes": 22781,
+      "sha256": "1f7cfb111fa1e2920e1e65f5f0bdcca56232b264e0a0b9e0b495dd6076b0e3ad"
+    },
+    {
+      "path": "src/myvote_engine/separate_cli.py",
+      "bytes": 6779,
+      "sha256": "db997bc0f3cc95f0cd2bc27145e4d826d502681294c7a8b7ffa8f922b75b5dd2"
+    },
+    {
+      "path": "src/myvote_engine/separation.py",
+      "bytes": 14037,
+      "sha256": "8297f79f7e4f6548415f46904cbe970dabb70071d2ff335c0afe842c31f418bf"
+    },
+    {
+      "path": "src/myvote_engine/separation_dsp.py",
+      "bytes": 8746,
+      "sha256": "03e9a2dba96ecc9ad0a3675b395be57b3328a5d2c7a29d779479d54eca7e06e5"
+    },
+    {
+      "path": "src/myvote_engine/sepformer.py",
+      "bytes": 17229,
+      "sha256": "51fe2378052518336031b699b49d4b420f1944c4c7731889b0482bcebd3e9d18"
+    },
+    {
+      "path": "src/myvote_engine/sepformer_cli.py",
+      "bytes": 8806,
+      "sha256": "b68a0402b967f95ee4660857ae6c95c93a9dd71b0eea0093605ccb152a984e3a"
+    },
+    {
+      "path": "src/myvote_engine/speaker_activity.py",
+      "bytes": 21191,
+      "sha256": "29eb7db0a39dceb96d110ec5d25d1317e4008c769a3de4d3ca5ab37445679052"
+    },
+    {
+      "path": "src/myvote_engine/speaker_captions.py",
+      "bytes": 25572,
+      "sha256": "8d631401d707e91da3873e3418ff2cde1218a7d5a3c92f8c976b932e89491dc7"
+    },
+    {
+      "path": "src/myvote_engine/speaker_pooling.py",
+      "bytes": 15953,
+      "sha256": "6b472dddabd8b96a5ae0cd1c872795e3fde65619815f68431f7aa7444a57a187"
+    },
+    {
+      "path": "src/myvote_engine/speaker_profile.py",
+      "bytes": 5862,
+      "sha256": "d785de01b18fb9f62ae5bcd4293b4a5efe5e7f56f94e457ba93e1c4fe05900cc"
+    },
+    {
+      "path": "src/myvote_engine/speaker_stream.py",
+      "bytes": 26213,
+      "sha256": "6a91efd9dfbe81aab61be2855565432b0c1f060c071420b382144f41c34d19d0"
+    },
+    {
+      "path": "src/myvote_engine/speakers.py",
+      "bytes": 23314,
+      "sha256": "b0ee0c2d595b740101acee7af6d1bb59740cf1b821d0d0b779f12e54a0833c87"
+    },
+    {
+      "path": "src/myvote_engine/tls.py",
+      "bytes": 17975,
+      "sha256": "87ef903319981b155b8a0e65b146d2ca5f6656ef9d5b7d79724c05cd82029754"
+    },
+    {
+      "path": "src/myvote_engine/translation.py",
+      "bytes": 44145,
+      "sha256": "63df7b698be5e7ac4fc7db2a94746a1df5e755c2d99fce9e397271866c914d75"
+    },
+    {
+      "path": "src/myvote_engine/word_trace.py",
+      "bytes": 5439,
+      "sha256": "8dbc9089724d82b0324d9114f01bd61b2430cf9ef3fafcfd4b8d10e21e93cfae"
+    },
+    {
+      "path": "start-update.command",
+      "bytes": 489,
+      "sha256": "d31b1361380ebe66d84279d276c173237ec4780a93b11b298fef092ea3b0ee31"
+    }
+  ]
+}

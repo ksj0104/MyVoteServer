@@ -1,0 +1,27 @@
+# Allow only the independent API and its runtime dependency manifest.
+**
+!Dockerfile
+!.dockerignore
+!requirements.txt
+!requirements-lock.txt
+!app/
+!app/**
+
+# Never include local credentials, caches, transcripts, or generated logs.
+**/.env
+**/.env.*
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/*.key
+**/*.pem
+**/*.crt
+**/*.p12
+**/*.safetensors
+**/*.bin
+**/*.pt
+**/*.onnx
+**/*.zip
+**/*.wav
+**/*.log
+**/*.jsonl

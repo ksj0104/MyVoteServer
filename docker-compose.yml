@@ -1,0 +1,26 @@
+services:
+  streaming-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "127.0.0.1:8000:8000"
+    env_file:
+      - .env
+    environment:
+      STREAMING_API_KEY: ${STREAMING_API_KEY:?Set a generated STREAMING_API_KEY in .env}
+      TRANSLATION_BASE_URL: ${DOCKER_TRANSLATION_BASE_URL:-http://host.docker.internal:1234/v1}
+      TRANSLATION_API_KEY: ${TRANSLATION_API_KEY:-lm-studio}
+      TRANSLATION_MODEL: ${TRANSLATION_MODEL:-google/gemma-4-26b-a4b}
+      TRANSLATION_TIMEOUT: ${TRANSLATION_TIMEOUT:-30}
+      TRANSLATION_WORKERS: ${TRANSLATION_WORKERS:-4}
+      RAW_TRANSCRIPT_LOGGING: "false"
+    read_only: true
+    tmpfs:
+      - /tmp:size=16m,mode=1777
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    init: true
+    stop_grace_period: 45s

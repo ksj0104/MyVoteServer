@@ -1,0 +1,35 @@
+# Copy to server.toml and fill in this machine's LAN address.
+# 192.0.2.10 is a documentation-only address, not a usable deployment default.
+[demo]
+bundle_dir = "MyVote-Mac-Demo"
+
+[network]
+expected_ip = "192.0.2.10"
+port = 50051
+
+[lmstudio]
+base_url = "http://127.0.0.1:1234"
+translation_profile = "translategemma"
+model_id = "translategemma-12b-it"
+context_length = 2048
+translation_workers = 4
+orchestrator_model_id = "google/gemma-4-26b-a4b"
+orchestrator_context_length = 262144
+context_review_json_schema = true
+semantic_boundary_prompt = "gemma4-semantic-boundary-prompt_latest.md"
+semantic_boundary_refinement = true
+semantic_quality_first = true
+semantic_low_latency = true
+semantic_min_request_interval_s = 0.25
+semantic_inactivity_flush_s = 2
+semantic_max_hold_s = 2
+semantic_total_age_s = 45
+semantic_selection_timeout_s = 5
+semantic_translation_timeout_s = 15
+
+[speaker_update]
+enabled = true
+bundle_dir = "MyVote-Speaker-Update"
+overlap_enabled = true
+overlap_model = "pytorch_model.bin"
+overlap_threads = 1

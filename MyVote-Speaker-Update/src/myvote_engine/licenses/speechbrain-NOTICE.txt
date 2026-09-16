@@ -1,0 +1,18 @@
+SpeechBrain-derived SepFormer implementation
+
+src/myvote_engine/sepformer.py adapts the selected inference equations and
+module layout from SpeechBrain, Copyright 2020-2021 SpeechBrain authors.
+Original authors include Cem Subakan, Mirco Ravanelli, Samuele Cornell,
+Mirko Bronzi and Jianyuan Zhong.
+
+Original source revision:
+https://github.com/speechbrain/speechbrain/tree/fc2eabb7416b0ae68b3baaadb39972ea1d153985
+
+MyVote modifications: fixed mono 16kHz two-source architecture; bounded local
+CPU inference; explicit tensor/checkpoint validation; lazy Torch import;
+source timeline and unmodeled-tail reporting; no YAML or SpeechBrain runtime
+dependency. The full Apache License 2.0 is in speechbrain-LICENSE.txt.
+
+Model weights are separate from this source distribution. The referenced
+speechbrain/sepformer-whamr16k model card declares Apache-2.0:
+https://huggingface.co/speechbrain/sepformer-whamr16k/tree/21a5b500c6f52fddc387c5d9e5fb13ffd6f039c5

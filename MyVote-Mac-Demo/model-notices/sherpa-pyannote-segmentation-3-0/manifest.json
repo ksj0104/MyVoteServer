@@ -1,0 +1,31 @@
+{
+  "download_url": "https://github.com/k2-fsa/sherpa-onnx/releases/download/speaker-segmentation-models/sherpa-onnx-pyannote-segmentation-3-0.tar.bz2",
+  "release_asset_id": 197666131,
+  "asset_created_at": "2024-10-08T12:54:09Z",
+  "asset_updated_at": "2024-10-08T12:54:10Z",
+  "inspected_at": "2026-09-15",
+  "sherpa_source_revision": "7c4ccdff34a3a8e858d834c0793f3512d25b4241",
+  "distribution_license": "MIT, copyright 2022 CNRS",
+  "files": {
+    "LICENSE": {
+      "bytes": 1061,
+      "sha256": "14d7016ad68e7394d6e6b78d96cc2ae431c905287b89674cfdf021e79e62b8ba"
+    },
+    "model.int8.onnx": {
+      "bytes": 1540506,
+      "sha256": "d582f4b4c6b48205de7e0643c57df0df5615a3c176189be3fc461e9d18827b5d"
+    },
+    "model.onnx": {
+      "bytes": 5992913,
+      "sha256": "220ad67ca923bef2fa91f2390c786097bf305bceb5e261d4af67b38e938e1079"
+    },
+    "README.md": {
+      "bytes": 115,
+      "sha256": "0380ed76a50efcc421dc62f251ed06e8349688466beac3177bee6e00dc336bfc"
+    },
+    "sherpa-onnx-pyannote-segmentation-3-0.tar.bz2": {
+      "bytes": 6958444,
+      "sha256": "24615ee884c897d9d2ba09bb4d30da6bb1b15e685065962db5b02e76e4996488"
+    }
+  }
+}

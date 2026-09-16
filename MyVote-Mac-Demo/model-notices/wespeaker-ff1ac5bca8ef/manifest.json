@@ -1,0 +1,67 @@
+{
+  "schema": "myvote.speaker_model_acquisition",
+  "schema_version": 1,
+  "recorded_utc": "2026-09-15T08:05:33.151396+00:00",
+  "model": {
+    "filename": "voxceleb_resnet34.onnx",
+    "bytes": 26534127,
+    "sha256": "9fea6516d7ad6bf0a76c7689f5a49b65d330fad6dde96c91bb4435ffbfe056a1",
+    "repository": "Wespeaker/wespeaker-voxceleb-resnet34",
+    "revision": "ff1ac5bca8ef11e90662b879aa923979e0bd277b",
+    "url": "https://huggingface.co/Wespeaker/wespeaker-voxceleb-resnet34/resolve/ff1ac5bca8ef11e90662b879aa923979e0bd277b/voxceleb_resnet34.onnx",
+    "gated": false,
+    "private": false,
+    "downloaded_utc": "2026-09-15T08:00:46.653975+00:00",
+    "modifications": "none"
+  },
+  "speech_fixture": {
+    "filename": "Lab41-SRI-VOiCES-src-sp0307-ch127535-sg0042.wav",
+    "bytes": 108844,
+    "sha256": "c65fcd726d6b08c82c1e5dc7558f863cd8d483e3ed2f4a7bcf271dc1865ada14",
+    "url": "https://download.pytorch.org/torchaudio/tutorial-assets/Lab41-SRI-VOiCES-src-sp0307-ch127535-sg0042.wav",
+    "source_dataset": "VOiCES",
+    "creators": "SRI International and Lab41, In-Q-Tel; Richey et al. (2018)",
+    "dataset_url": "https://iqtlabs.github.io/voices/",
+    "paper_url": "https://arxiv.org/abs/1804.05053",
+    "tutorial_url": "https://docs.pytorch.org/audio/2.8.0/tutorials/speech_recognition_pipeline_tutorial.html",
+    "license": "CC-BY-4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "file_modifications": "none; smoke reads first 48000 samples without changing this file",
+    "sample_rate": 16000,
+    "channels": 1,
+    "pcm_bits": 16,
+    "samples": 54400,
+    "duration_s": 3.4,
+    "speaker_accuracy_fixture": false
+  },
+  "cpu_wheels": [
+    {
+      "filename": "torch-2.9.1+cpu-cp312-cp312-win_amd64.whl",
+      "bytes": 110856378,
+      "sha256": "a4e06b4f441675d26b462123c8a83e77c55f1ec8ebc081203be2db1ea8054add",
+      "package": "torch",
+      "version": "2.9.1+cpu",
+      "url": "https://download-r2.pytorch.org/whl/cpu/torch-2.9.1%2Bcpu-cp312-cp312-win_amd64.whl"
+    },
+    {
+      "filename": "torchaudio-2.9.1+cpu-cp312-cp312-win_amd64.whl",
+      "bytes": 663086,
+      "sha256": "53dd3155b794019e8de2dc49d044f410e6bce081d23a0e6548c156f37dfc9d0d",
+      "package": "torchaudio",
+      "version": "2.9.1+cpu",
+      "url": "https://download-r2.pytorch.org/whl/cpu/torchaudio-2.9.1%2Bcpu-cp312-cp312-win_amd64.whl"
+    }
+  ],
+  "upstream_inference_revision": "45941e7cba2c3ea99e232d02bedf617fc71b0dad",
+  "upstream_inference_url": "https://github.com/wenet-e2e/wespeaker/blob/45941e7cba2c3ea99e232d02bedf617fc71b0dad/wespeaker/bin/infer_onnx.py",
+  "license_statements": {
+    "upstream_pretrained_models": "CC-BY-4.0 for VoxCeleb pretrained weights",
+    "upstream_source": "https://github.com/wenet-e2e/wespeaker/blob/45941e7cba2c3ea99e232d02bedf617fc71b0dad/docs/pretrained.md",
+    "huggingface_card_tag": "apache-2.0",
+    "huggingface_source": "https://huggingface.co/Wespeaker/wespeaker-voxceleb-resnet34/blob/ff1ac5bca8ef11e90662b879aa923979e0bd277b/README.md",
+    "status": "Different upstream weight/card license labels recorded; not resolved as redistribution approval",
+    "code_license": "Apache-2.0 (separate from weight/dataset statement)"
+  },
+  "authentication": "No token or login used; public model endpoint",
+  "runtime_downloads": false
+}

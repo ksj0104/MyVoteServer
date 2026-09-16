@@ -1,0 +1,20 @@
+{
+  "source_repository": "https://github.com/snakers4/silero-vad",
+  "revision": "867c2aa692646a1f1de3e94a15c9dd9f614c0acb",
+  "license": "MIT",
+  "retrieval_date": "2026-09-15",
+  "artifacts": [
+    {
+      "file": "artifacts\\models\\silero-vad-867c2aa69264\\silero_vad.onnx",
+      "url": "https://raw.githubusercontent.com/snakers4/silero-vad/867c2aa692646a1f1de3e94a15c9dd9f614c0acb/src/silero_vad/data/silero_vad.onnx",
+      "bytes": 2327524,
+      "sha256": "1a153a22f4509e292a94e67d6f9b85e8deb25b4988682b7e174c65279d8788e3"
+    },
+    {
+      "file": "artifacts\\models\\silero-vad-867c2aa69264\\LICENSE",
+      "url": "https://raw.githubusercontent.com/snakers4/silero-vad/867c2aa692646a1f1de3e94a15c9dd9f614c0acb/LICENSE",
+      "bytes": 1075,
+      "sha256": "2e63e9a38b6e8fc0c7bc37ce174caca1862870856c6daf5697cfb785e925520b"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "myvote-engine"
+version = "0.1.0"
+description = "Research harness for low-latency translation and online speaker tracking"
+requires-python = ">=3.11"
+dependencies = ["httpx>=0.28,<0.29"]
+
+[project.optional-dependencies]
+mac-asr = ["mlx-whisper; sys_platform == 'darwin' and platform_machine == 'arm64'"]
+audio = ["numpy>=2,<3", "onnxruntime>=1.20,<2"]
+capture = ["numpy>=2,<3", "soxr>=1.1,<2"]
+gateway = ["grpcio>=1.84,<2", "protobuf>=7.35.1,<8", "cryptography>=46,<49"]
+gateway-dev = ["grpcio-tools==1.84.0"]
+speaker = ["numpy>=2,<3", "onnxruntime>=1.20,<2", "torch>=2.5,<3", "torchaudio>=2.5,<3"]
+
+[project.scripts]
+myvote-benchmark = "myvote_engine.benchmark:main"
+myvote-replay = "myvote_engine.replay:main"
+myvote-capture = "myvote_engine.capture_cli:main"
+myvote-gateway = "myvote_engine.gateway_server:main"
+myvote-live = "myvote_engine.live:main"
+myvote-desktop-bridge = "myvote_engine.desktop_bridge:main"
+myvote-mac-preflight = "myvote_engine.mac_preflight:main"
+myvote-tls = "myvote_engine.tls:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

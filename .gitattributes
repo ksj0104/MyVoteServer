@@ -1,0 +1,3 @@
+# These vendor files are checksum-verified; never normalize their line endings.
+MyVote-Speaker-Update/** -text
+MyVote-Mac-Demo/** -text
